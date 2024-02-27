@@ -58,11 +58,14 @@
 <body>
     <section id="introduction">
         <div class="row">
-            <div class="col-auto">
-                <img class="avatar" loading="lazy" src="https://avatars.githubusercontent.com/u/32982175?v=4"
-                    alt="Pablo González's profile picture" title="Pablo González's profile picture">
-            </div>
+            <a class="anchor" href="#introduction" title="Anchor for &quot;introduction&quot;.">
+                <div class="col-auto">
+                    <img class="avatar" loading="lazy" src="https://avatars.githubusercontent.com/u/32982175?v=4"
+                        alt="Pablo González's profile picture" title="Pablo González's profile picture">
+                </div>
+            </a>
             <div class="col">
+
                 <h1 class="name">Hello, I'm <span class="accent">Pablo González</span></h1>
                 <p>
                     You may be interested in reading my <a href="https://pablogonzalez.me">Website</a>, which
@@ -78,19 +81,30 @@
     </section>
 
     <section id="professional">
-        <h1 class="accent">Professional</h1>
+        <a class="anchor" href="#professional" title="Anchor for &quot;professional&quot;.">
+            <h1 class="accent">Professional</h1>
+        </a>
 
         <h2>My preferred channels of communication are...</h2>
         <p>In priority order:</p>
         <div class="row">
-            <div class="col col-md-3">
+            <div class="col">
+                <h3 id="video-voice-chat">Video/Voice Chat</h3>
+                <ul>
+                    <li>
+                        It's the most personal way to communicate, and allows for the most context to be shared
+                    </li>
+                    <li>It's the best way to build rapport and trust</li>
+                </ul>
+            </div>
+            <div class="col">
                 <h3 id="email">Email</h3>
                 <ul>
-                    <li>Preferably, I tend to forget things a lot.</li>
+                    <li>It's more formal and allows to locate the conversation easily</li>
                     <li>It allows me to schedule time to respond to you properly</li>
                 </ul>
             </div>
-            <div class="col col-md-4">
+            <div class="col">
                 <h3 id="instant-messaging">Instant messaging</h3>
                 <ul>
                     <li>
@@ -100,37 +114,25 @@
                     <li>If messages are urgent/time sensitive, it'd be good to know! </li>
                 </ul>
             </div>
-            <div class="col col-md-6">
-                <h3 id="video-voice-chat">Video/Voice Chat</h3>
-                <ul>
-                    <li>
-                        While I don't tend to be a fan of video calls,
-                        written communication can be prone to error
-                        and misinterpretation - if we're finding
-                        we aren't understanding well each other, let's
-                        move to a video/audio call to discuss things
-                    </li>
-                </ul>
-            </div>
         </div>
 
         <div class="row">
             <div class="col col-md-4" id="i-work-best-when">
                 <h2>I work best when</h2>
                 <ul>
-                    <li>I can get my headphones on, have no distractions and get down to the task </li>
-                    <li>Divide and Conquer tasks</li>
+                    <li>Tasks are clearly defined and work can be break down</li>
+                    <li>I have music on!</li>
                 </ul>
             </div>
             <div class="col col-md-8" id="what-gives-me-energy-at-work">
                 <h2>What gives me energy at work</h2>
                 <ul>
+                    <li>Feeling valued</li>
                     <li>Having supportive colleagues</li>
                     <li>Being able to help grow myself and others, to improve ourselves technically and personally (and
                         being able to perceive it!)</li>
                     <li>Being able to have a good work/life balance</li>
                     <li>Having a joyful relaxed working atmosphere</li>
-                    <li>Feeling valued</li>
                 </ul>
             </div>
         </div>
@@ -139,7 +141,7 @@
             <div class="col-auto" id="things-i-need">
                 <h2>Things I need</h2>
                 <ul>
-                    <li>Linux as the main OS. I even use it in my personal laptop and PC.</li>
+                    <li>I like Linux 🐧 for development, but got used to work in Windows with WSL too.</li>
                     <li>Ability to manage the PC I'm using</li>
                     <li>A bit fast computer, nothing special</li>
                 </ul>
@@ -148,8 +150,8 @@
             <div class="col" id="conditions-i-like-to-work-in">
                 <h2>Conditions I like to work in</h2>
                 <ul>
-                    <li>Highly bright place with some plants and huge windows</li>
-                    <li>I like having some white noise around me, but also like having my headphones on</li>
+                    <li>Highly bright place with some plants and huge windows - 🌞 SUN 🌞</li>
+                    <li>I like having some white noise around me and people to walk with - really important!</li>
                 </ul>
             </div>
         </div>
@@ -162,10 +164,6 @@
                 From refactoring code, to full automation of manual tasks.
             </li>
             <li>Being a good communicator, and being able to explain complex things in a simple way</li>
-            <li>
-                Thinking of software tools as what they are: tools. While I really like some frameworks as Django, I
-                try not to attach to any tool: as long as it produces the expected product, it's fine!
-            </li>
         </ul>
 
         <h2 id="feedback-is-best-given">Feedback is best given...</h2>
@@ -180,77 +178,113 @@
     </section>
 
     <section id="personal">
-        <h1 class="accent">Personal</h1>
+        <a class="anchor" href="#personal" title="Anchor for &quot;personal&quot;.">
+            <h1 class="accent">Personal</h1>
+        </a>
 
         <h2>My personality type is ...</h2>
         <div class="row" id="my-personality-type-is">
             <div class="col">
                 <div class="mb-personality">
-                    ESFJ-A
+                    ISFJ-A
                 </div>
                 <br>
                 <div style="overflow-x: scroll">
-                    <table>
+                    <table style="width: 100%;">
                         <tbody>
                             <tr>
                                 <td style="text-align: center !important">
                                     <a href="https://www.16personalities.com/articles/mind-introverted-vs-extraverted">
-                                        Extroverted
+                                        <u>Introverted</u> - Extroverted
                                     </a>
-                                </td>
-                                <td style="text-align: center !important">
-                                    <a href="https://www.16personalities.com/articles/energy-intuitive-vs-observant">
-                                        Sensing<br>(Observant)
-                                    </a>
-                                </td>
-                                <td style="text-align: center !important">
-                                    <a href="https://www.16personalities.com/articles/nature-thinking-vs-feeling">
-                                        Feeling
-                                    </a>
-                                </td>
-                                <td style="text-align: center !important">
-                                    <a href="https://www.16personalities.com/articles/tactics-judging-vs-prospecting">
-                                        Judging
-                                    </a>
-                                </td>
-                                <td style="text-align: center !important">
-                                    <a href="https://www.16personalities.com/articles/identity-assertive-vs-turbulent">
-                                        Assertive
-                                    </a>
+                                    <br>
+                                    <b>51% - 49%</b>
+                                    <br>
+                                    Introverted individuals tend to prefer fewer,
+                                    yet deep and meaningful, social interactions and often feel drawn to calmer
+                                    environments.
                                 </td>
                             </tr>
                             <tr>
-                                <td style="text-align: center !important">70%</td>
-                                <td style="text-align: center !important">62%</td>
-                                <td style="text-align: center !important">66%</td>
-                                <td style="text-align: center !important">65%</td>
-                                <td style="text-align: center !important">74%</td>
+                                <td style="text-align: center !important">
+                                    <a href="https://www.16personalities.com/articles/energy-intuitive-vs-observant">
+                                        <u>Sensing</u> - Intuitive
+                                    </a>
+                                    <br>
+                                    <b>60% - 40%</b>
+                                    <br>
+                                    Observant individuals are pragmatic and
+                                    down-to-earth. They tend to have a strong focus on what is happening or very likely
+                                    to happen.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center !important">
+                                    <a href="https://www.16personalities.com/articles/nature-thinking-vs-feeling">
+                                        <u>Feeling</u> - Thinking
+                                    </a>
+                                    <br>
+                                    <b>54% - 46%</b>
+                                    <br>
+                                    Feeling individuals value emotional
+                                    expression and sensitivity. They place a lot of importance on empathy, social
+                                    harmony, and cooperation.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center !important">
+                                    <a href="https://www.16personalities.com/articles/tactics-judging-vs-prospecting">
+                                        <u>Judging</u> - Prospecting
+                                    </a>
+                                    <br>
+                                    <b>72% - 28%</b>
+                                    <br>
+                                    Judging individuals are decisive, thorough,
+                                    and highly organized. They value clarity, predictability, and closure, preferring
+                                    structure and planning to spontaneity.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center !important">
+                                    <a href="https://www.16personalities.com/articles/identity-assertive-vs-turbulent">
+                                        <u>Assertive</u> - Turbulent
+                                    </a>
+                                    <br>
+                                    <b>92% - 8%</b>
+                                    <br>
+                                    Assertive individuals are self-assured,
+                                    even-tempered, and resistant to stress. They refuse to worry too much and tend to be
+                                    self-confident when striving to achieve goals.
+                                </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
             <div class="col">
-                <blockquote>
-                    <u><b>Personality</b></u>: Consuls are very caring and social personalities who are always eager to
-                    help. They're attentive and people-focused, happily taking part in their social community and
-                    offering guidance.
-                </blockquote>
-                <blockquote>
-                    <u><b>Role</b></u>: Sentinels are cooperative and practical, embracing and creating order, security,
-                    and stability. They're hard-working, meticulous, and traditional, preferring to stick to their
-                    plans.
-                </blockquote>
-                <blockquote>
-                    <u><b>Strategy</b></u>: People Masters seek social contact and have very good communication skills,
-                    feeling at ease in social events or directing others. They're confident and readily express their
-                    opinions.
-                </blockquote>
-                <p>
-                    <a href="https://www.16personalities.com/esfj-personality">
-                        Discover more about this Personality Type
-                    </a>
-                </p>
+                <u><b>Personality</b></u>:
+                <a href="https://www.16personalities.com/isfj-personality">
+                    Defenders
+                </a>
+                are devoted, detail-oriented, and loyal, excelling in supportive
+                roles. They value humility and face
+                challenges with change, often putting others' needs before their own.
+                <br><br>
+                <u><b>Role</b></u>:
+                <a href="https://www.16personalities.com/articles/roles-sentinels">
+                    Sentinels
+                </a>
+                are cooperative and practical, embracing and creating order, security,
+                and stability. They're hard-working, meticulous, and traditional, preferring to stick to their
+                plans.
+                <br><br>
+                <u><b>Strategy</b></u>:
+                <a href="https://www.16personalities.com/articles/strategies-confident-individualism">
+                    Confident Individualists
+                </a>
+                trust themselves, enjoy solitude to develop skills and ideas, and value personal achievements
+                over social approval. They prioritize substance and honesty, feeling no need to prove themselves to
+                others.
             </div>
         </div>
 
@@ -286,11 +320,11 @@
 
         <h2 id="beyond-work-im-really-passionate-about">Beyond work, I’m really passionate about...</h2>
         <ul>
+            <li>Sports 🏋️‍♂️🥋🛼</li>
             <li>Plants 🪴</li>
-            <li>Sports 🏋️‍♂️🛼</li>
             <li><a href="https://steamcommunity.com/id/n0nuser/">Videogames</a> 🎮</li>
             <li><a href="https://www.goodreads.com/user/show/156357687-pablo-gonz-lez-rubio">Books</a> 📖</li>
-            <li>Helping others 🫶</li>
+            <li>Writing 🖊️</li>
         </ul>
 
         <h2 id="a-fun-fact-about-me">A fun fact about me</h2>
